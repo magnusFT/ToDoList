@@ -1,0 +1,14 @@
+#div1 {
+    margin:auto;
+    background-color: rgb(204, 193, 80);
+    width: 950px;
+    height: 950px;
+}
+
+#Hovedskrift {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+    position: fixed;
+    top: 20px;
+    left: 835px;
+}
