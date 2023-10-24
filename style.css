@@ -12,3 +12,16 @@
     top: 20px;
     left: 835px;
 }
+
+#inputbox {
+    width: 500px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+#inputDiv {
+ position:absolute;
+ margin-top: 250px;
+ margin-left: 220px;
+}
