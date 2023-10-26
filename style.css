@@ -11,27 +11,27 @@
 #Hovedskrift {
     font-family: Libre Baskerville;
     font-size: 65px;
-    position: fixed;
+    position: absolute;
     top: 20px;
-    left: 750px;
+    left: 635px;
     text-decoration: none;
     color: rgb(239,243,248);
 }
 
 #input_felt {
-    width: 500px;
+    width: 700px;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
     position:absolute;
     margin-top: 700px;
-    margin-left: 150px;
+    margin-left: 50px;
   }
 
   #submit_button {
     position:absolute;
-    margin-top: 725px;
-    margin-left: 350px;
+    margin-top: 735px;
+    margin-left: 50px;
     width: 90px;
     height: 35px;
   }
@@ -39,7 +39,7 @@
   #test {
     position:absolute;
     margin-top: 100px;
-    margin-left: 160px;
+    margin-left: 50px;
     font-family: Libre Baskerville;
     font-size: 25px;
   }
@@ -54,8 +54,8 @@
 
   #completionPercentage {
     position: absolute;
-    margin-top: 800px;
-    margin-left: 250px;
+    margin-top: 850px;
+    margin-left: 50px;
     font-family: Libre Baskerville;
     font-size: 35px;
     color: black;
@@ -63,7 +63,8 @@
 
   #remove_marked {
     position: absolute;
-    margin-top: 890px;
+    margin-top: 775px;
+    margin-left: 50px;
   }
 
 #bilde1 {

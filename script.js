@@ -1,7 +1,6 @@
 let totalCheckboxes = 0; //antall checkbokser
 let completedCheckboxes = 0; // aantall markerte checkboxer
 
-
 function checkEnter(event) {
     if (event.key === "Enter") {
         event.preventDefault(); 
@@ -21,10 +20,18 @@ function addtext() {
 
     let test = document.getElementById("test");
 
+    // Lag en div som holder boksen og tekst
+    let itemDiv = document.createElement("div");
+    itemDiv.className = "list-item";
+
     // lage checkbox element
     let checkbox = document.createElement("input");
     checkbox.type = "checkbox";
-    checkbox.addEventListener("change", updateCompletionPercentage);
+    checkbox.addEventListener("change", function() {
+        // Bruker funksjon når checkboxen er markert
+        updateCompletionPercentage();
+        updateTextDecoration(checkbox, itemDiv);
+    });
 
      // lag en label element for chekcbokssssss
     let label = document.createElement("label");
@@ -34,10 +41,10 @@ function addtext() {
     // Lag tekst for brukerens input
     let textNode = document.createTextNode(brukerSvar);
     
-    // Lag en div som holder boksen og tekst
-    let itemDiv = document.createElement("div");
+   // appenddddd
     itemDiv.appendChild(label);
     itemDiv.appendChild(textNode);
+    itemDiv.appendChild(document.createElement("br"));
 
 
     test.appendChild(itemDiv);
@@ -55,6 +62,14 @@ function addtext() {
     let completionPercentageDisplay = document.getElementById("completionPercentage");
     completionPercentageDisplay.textContent = `Gjennomføringsgrad: ${completionPercentage.toFixed(2)}%`;
   }
+
+  function updateTextDecoration(checkbox, textNode) {
+    if (checkbox.checked) {
+        textNode.style.textDecoration = "line-through";
+    } else {
+        textNode.style.textDecoration = "none";
+    }
+}
 
   function removeMarkedBoxes() {
     let checkboxes = document.querySelectorAll("input[type='checkbox']:checked");
