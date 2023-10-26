@@ -1,16 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
 #box {
     margin:auto;
     background-color: rgb(102,137,191);
-    width: 950px;
-    height: 950px;
+    width: 750px;
+    height: 947px;
+    margin: auto;
 }
 
 #Hovedskrift {
-    font-family: 
-    font-size: 35px;
+    font-family: Libre Baskerville;
+    font-size: 65px;
     position: fixed;
     top: 20px;
-    left: 835px;
+    left: 750px;
     text-decoration: none;
     color: rgb(239,243,248);
 }
@@ -21,20 +24,24 @@
     margin: 8px 0;
     box-sizing: border-box;
     position:absolute;
-    margin-top: 400px;
-    margin-left: 220px;
+    margin-top: 700px;
+    margin-left: 150px;
   }
 
   #submit_button {
     position:absolute;
-    margin-top: 424px;
-    margin-left: 450px;
+    margin-top: 725px;
+    margin-left: 350px;
+    width: 90px;
+    height: 35px;
   }
 
   #test {
     position:absolute;
-    margin-top: 200px;
-    margin-left: 450px;
+    margin-top: 100px;
+    margin-left: 215px;
+    font-family: Libre Baskerville;
+    font-size: 25px;
   }
 
   .checkbox {
@@ -47,9 +54,9 @@
 
   #completionPercentage {
     position: absolute;
-    margin-top: 600px;
-    margin-left: 430px;
-    font-family: fantasy;
+    margin-top: 800px;
+    margin-left: 250px;
+    font-family: Libre Baskerville;
     font-size: 35px;
-    color: ;
+    color: black;
   }

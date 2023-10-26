@@ -33,11 +33,14 @@ function addtext() {
 
     // Lag tekst for brukerens input
     let textNode = document.createTextNode(brukerSvar);
+    
+    // Lag en div som holder boksen og tekst
+    let itemDiv = document.createElement("div");
+    itemDiv.appendChild(label);
+    itemDiv.appendChild(textNode);
 
-    // Append checkboks og tekst til "test"
-    test.appendChild(checkbox);
-    test.appendChild(textNode);
-    test.appendChild(document.createElement("br"));
+
+    test.appendChild(itemDiv);
 
     // Øk antall checkbokser
     totalCheckboxes++;
@@ -50,5 +53,17 @@ function addtext() {
     completedCheckboxes = document.querySelectorAll("input[type='checkbox']:checked").length;
     let completionPercentage = (completedCheckboxes / totalCheckboxes) * 100;
     let completionPercentageDisplay = document.getElementById("completionPercentage");
-    completionPercentageDisplay.textContent = `Completion: ${completionPercentage.toFixed(2)}%`;
+    completionPercentageDisplay.textContent = `Gjennomføringsgrad: ${completionPercentage.toFixed(2)}%`;
+  }
+
+  function removeMarkedBoxes() {
+    let checkboxes = document.querySelectorAll("input[type='checkbox']:checked");
+    checkboxes.forEach(function (checkbox) {
+        let itemDiv = checkbox.parentElement.parentElement; // få foreldren
+        itemDiv.remove(); // fjern itemDiv med tekst og boks
+        totalCheckboxes--; // Reduser total bokser tellinga
+    });
+
+    updateCompletionPercentage();
 }
+
