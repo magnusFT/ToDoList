@@ -1,16 +1,18 @@
 #box {
     margin:auto;
-    background-color: rgb(204, 193, 80);
+    background-color: rgb(102,137,191);
     width: 950px;
     height: 950px;
 }
 
 #Hovedskrift {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 
     font-size: 35px;
     position: fixed;
     top: 20px;
     left: 835px;
+    text-decoration: none;
+    color: rgb(239,243,248);
 }
 
 #input_felt {
@@ -41,4 +43,13 @@
     height: 20px;
     border: 1px solid #000;
     margin-right: 10px;
+  }
+
+  #completionPercentage {
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 430px;
+    font-family: fantasy;
+    font-size: 35px;
+    color: ;
   }
