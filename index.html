@@ -7,16 +7,18 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
-    <div id="div1">
-        <h1 id="Hovedskrift">To do list</h1>
-        <div id="inputDiv">
+    <div id="box"><div id="Handleliste">
+        <h1 id="Hovedskrift">Handleliste</h1>
         <form>
-            <label for="input">Legg til ting som må gjøres:</label><br>
-            <input type="text" id="inputbox" name="inputbox"><br>
-            <input type="submit" value="Submit">
+            <label for="input_felt"></label><br>
+            <input type="text" id="input_felt" onkeydown="checkEnter(event)"><br>
         </form>
-    </div>
-    </div>
+        <button id="submit_button" onclick="addtext()" type="button">Legg til</button>
+        <div id="output"></div>
+        <p id="test"></p>
+<script src="script.js"></script>
+</div>
+</div>
 </body>
 
 </html>

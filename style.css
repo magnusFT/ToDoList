@@ -1,4 +1,4 @@
-#div1 {
+#box {
     margin:auto;
     background-color: rgb(204, 193, 80);
     width: 950px;
@@ -13,15 +13,32 @@
     left: 835px;
 }
 
-#inputbox {
+#input_felt {
     width: 500px;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
+    position:absolute;
+    margin-top: 400px;
+    margin-left: 220px;
   }
 
-#inputDiv {
- position:absolute;
- margin-top: 250px;
- margin-left: 220px;
-}
+  #submit_button {
+    position:absolute;
+    margin-top: 424px;
+    margin-left: 450px;
+  }
+
+  #test {
+    position:absolute;
+    margin-top: 200px;
+    margin-left: 450px;
+  }
+
+  .checkbox {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #000;
+    margin-right: 10px;
+  }
