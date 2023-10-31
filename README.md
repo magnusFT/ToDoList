@@ -15,7 +15,7 @@ Handleliste Web Applikasjonen er et brukervennlig verktøy for håndtering av di
 
 - **Legg til elementer**: Enkelt legg til elementer på handlelisten ved å skrive inn i inntastingsfeltet og klikke på "Legg til" -knappen eller trykke Enter.
 
-- **Sjekkbokser**: Hvert lagt til element er ledsaget av en sjekkboks som lar deg markere elementer som fullført.
+- **Sjekkbokser**: Hvert lagt til element er fulgt opp av en sjekkboks som lar deg markere elementer som fullført.
 
 - **Gjennomføringsprosent**: Applikasjonen beregner automatisk og viser gjennomføringsprosenten for handlelisten basert på merkede elementer.
 
@@ -26,12 +26,14 @@ Handleliste Web Applikasjonen er et brukervennlig verktøy for håndtering av di
 ## Designvalg
 
 - **Fargepalett**: Designet bruker en beroligende lysblå bakgrunn med friske grønne knapper og sjekkbokser, noe som skaper et tiltalende og visuelt engasjerende grensesnitt.
+Jeg er ikke så kreativ når det kommer til valg av farge, o.l. men her prøver jeg mitt beste. 
 
-- **Skrifttype**: Skrifttypen Libre Baskerville brukes for et sofistikert og lettlest utseende.
+- **Skrifttype**: Skrifttypen Libre Baskerville brukes for et sofistikert og lettlest utseende. Fant det på Google Fonts.
 
-- **Tittel**: Tittelen er stylet for å være fremtredende øverst på siden, med en kontrasterende farge for å fremheve den.
+- **Tittel**: Tittelen er stylet for å være fremtredende øverst på siden, med en kullsvart farge for å fremheve den.
 
-- **Layout**: Layouten er organisert og sentrert på en hvit bakgrunn, noe som gir klar separasjon mellom innholdsområdet og den omkringliggende plassen.
+- **Layout**: Layouten er organisert og sentrert på en hvit bakgrunn, noe som gir klar separasjon mellom innholdsområdet og den omkringliggende plassen. Baktanken med designet er at det skal se ut som en
+ordinær handleliste/notatblokk.
 
 ## Funksjonalitet
 
@@ -39,7 +41,7 @@ Funksjonaliteten til Handleliste Web Applikasjonen oppnås gjennom HTML, CSS og 
 
 - **Legge til elementer**: Brukere kan legge til elementer på handlelisten ved å skrive inn tekst i inntastingsfeltet og trykke Enter. Teksten konverteres deretter til en liste med en sjekkboks.
 
-- **Gjennomføringsprosent**: Applikasjonen beregner gjennomføringsprosenten ved å telle antall avkryssede sjekkbokser og dele med det totale antallet sjekkbokser.
+- **Gjennomføringsprosent**: Applikasjonen beregner gjennomføringsprosenten ved å telle antall avkryssede sjekkbokser og dele med det totale antallet sjekkbokser. Målet er å gjennomføre/handle alle!
 
 - **Sjekkboksstyling**: Når sjekkbokser er avkrysset, stylet teksten for det tilsvarende elementet med en gjennomstrek for å indikere fullføring. Når de er ukrysset, fjernes gjennomstrekningen.
 
