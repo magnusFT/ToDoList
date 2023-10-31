@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
+body {
+  background-color: #f3f3e5;
+}
+
 #box { /*Boxen som inneholder 80% av prosjektet */
     margin:auto;
-    background-color: rgb(102,137,191);
+    background-color: #c4dbf0;
     width: 750px;
     height: 947px;
     margin: auto;
@@ -15,7 +19,7 @@
     margin-top: 10px;
     margin-left: 48px;
     text-decoration: none;
-    color: rgb(239,243,248);
+    color: #001f3f;
 }
 
 #input_felt {
@@ -34,15 +38,38 @@
     margin-left: 50px;
     width: 90px;
     height: 35px;
+    background-color: rgb(162, 204, 57); 
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
   }
+
+  #submit_button:hover {
+    background-color: rgb(122, 184, 27); /* Mørkere farge når man hoverer */
+    transform: scale(1.05); /*legger til zoom effekt*/
+}
 
   .checkbox {
     display: inline-block;
     width: 20px;
     height: 20px;
     border: 1px solid #000;
-    
   }
+
+  input[type="checkbox"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #75d68b; /* Fresh grønn for umarkerte boxer */
+    border: 1px solid #75d68b; /* Border farge matcher bakgrunn */
+    border-radius: 4px;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #f44336; /* hmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
+    border: 1px solid #f44336;
+}
 
   #completionPercentage {
     position: absolute;
@@ -50,19 +77,31 @@
     margin-left: 50px;
     font-family: Libre Baskerville;
     font-size: 35px;
-    color: black;
+    color: #001f3f;
   }
 
   #remove_marked {
     position: absolute;
     margin-top: 775px;
     margin-left: 50px;
+    width: 170px; 
+    height: 35px;
+    background-color: rgb(204, 57, 57); /* Rød farge fordi å avslutte, kansellere eller angre som oftest er det */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
   }
+
+  #remove_marked:hover {
+    background-color: rgb(184, 27, 27);
+    transform: scale(1.05); /* Legg til zoom her og */
+}
 
 #bilde1 {
     position: absolute;
     margin-left: -24px;
-    margin-top: -52px;
+    margin-top: -35px;
     height: 950px;
 }
 
@@ -75,4 +114,17 @@
   font-family: Libre Baskerville;
   font-size: 25px;
   width: 500px;
+}
+/* Nedover er animation og farge av scrollbar.*/
+
+#handlelisteContainer::-webkit-scrollbar {
+  width: 10px;
+}
+
+#handlelisteContainer::-webkit-scrollbar-thumb {
+  background: rgb(162, 204, 57); 
+}
+
+#handlelisteContainer::-webkit-scrollbar-thumb:hover {
+  background: rgb(122, 184, 27); 
 }
