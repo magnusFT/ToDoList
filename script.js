@@ -1,7 +1,7 @@
 let totalCheckboxes = 0; //antall checkbokser
 let completedCheckboxes = 0; // aantall markerte checkboxer
 
-function checkEnter(event) {
+function checkEnter(event) { // Når Enter er presset i input boxen, display input og legg til antall i % display
     if (event.key === "Enter") {
         event.preventDefault(); 
         addtext(); 
@@ -9,8 +9,7 @@ function checkEnter(event) {
     }
 }
 
-
-function addtext() {
+function addtext() { // funksjon som displayer input, kontrollerer % andel, gir error om ingen input angis, sjekker om reglene i funksjonen samsvarer med koden.
     let brukerSvar = document.getElementById("input_felt").value;
 
     if (brukerSvar.trim() === "") {

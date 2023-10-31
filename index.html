@@ -7,7 +7,8 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
-    <div id="box"><div id="Handleliste">
+    <div id="box"><div id="Handleliste"> <!--Hoved-div som inkluderer hovedskrift, box der inputs kommer, input felt
+    autofokus, submit knapp, og bilde-->
         <a href="index.html" id="Hovedskrift">Handleliste</a>
         <form>
             <div id="handlelisteContainer"></div>
@@ -16,11 +17,10 @@
         </form>
         <button id="submit_button" onclick="addtext()" type="button">Legg til</button>
         <div id="output"></div>
-        <p id="test"></p>
         <img src="notebookRings.png" id="bilde1">
-<button id="remove_marked" onclick="removeMarkedBoxes()">Fjern markerte varer</button>
+<button id="remove_marked" onclick="removeMarkedBoxes()">Fjern markerte varer</button> <!--Knapp som fjerner markerte elementer.-->
 </div>
-<div id="completionPercentage">Gjennomføringsgrad: 0%</div>
+<div id="completionPercentage">Gjennomføringsgrad: 0%</div> <!--Live gjennomføringsgrad som oppdateres for hver gang en boks blir avmerket. ==js-->
 </div>
 <script src="script.js"></script>
 </body>
