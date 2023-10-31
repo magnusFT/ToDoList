@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
   background-color: #f3f3e5;
@@ -13,7 +13,7 @@ body {
 }
  /*Ikke så mye spennende å kommentere nedover her. Generell styling av posisjon, farge font og størrelse. */
 #Hovedskrift {
-    font-family: Libre Baskerville;
+    font-family: Roboto;
     font-size: 65px;
     position: absolute;
     margin-top: 10px;
@@ -75,7 +75,7 @@ input[type="checkbox"]:checked {
     position: absolute;
     margin-top: 850px;
     margin-left: 50px;
-    font-family: Libre Baskerville;
+    font-family: Roboto;
     font-size: 35px;
     color: #001f3f;
   }
@@ -111,7 +111,7 @@ input[type="checkbox"]:checked {
   position:absolute;
   margin-top: 100px;
   margin-left: 50px;
-  font-family: Libre Baskerville;
+  font-family: Roboto;
   font-size: 25px;
   width: 500px;
 }
@@ -127,4 +127,8 @@ input[type="checkbox"]:checked {
 
 #handlelisteContainer::-webkit-scrollbar-thumb:hover {
   background: rgb(122, 184, 27); 
+}
+
+#handlelisteContainer div {
+  margin-bottom: 10px; /* mere rom etter bruker input*/
 }
