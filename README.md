@@ -28,7 +28,7 @@ Handleliste Web Applikasjonen er et brukervennlig verktøy for håndtering av di
 - **Fargepalett**: Designet bruker en beroligende lysblå bakgrunn med friske grønne knapper og sjekkbokser, noe som skaper et tiltalende og visuelt engasjerende grensesnitt.
 Jeg er ikke så kreativ når det kommer til valg av farge, o.l. men her prøver jeg mitt beste. 
 
-- **Skrifttype**: Skrifttypen Libre Baskerville brukes for et sofistikert og lettlest utseende. Fant det på Google Fonts.
+- **Skrifttype**: Skrifttypen Roboto brukes for et sofistikert og lettlest utseende. Fant det på Google Fonts.
 
 - **Tittel**: Tittelen er stylet for å være fremtredende øverst på siden, med en kullsvart farge for å fremheve den.
 
