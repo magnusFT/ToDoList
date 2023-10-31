@@ -10,8 +10,6 @@ Handleliste Web Applikasjonen er et brukervennlig verktøy for håndtering av di
 - [Designvalg](#designvalg)
 - [Funksjonalitet](#funksjonalitet)
 - [Bruk](#bruk)
-- [Bidrag](#bidrag)
-- [Lisens](#lisens)
 
 ## Funksjoner
 
