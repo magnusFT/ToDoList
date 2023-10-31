@@ -18,7 +18,7 @@ function addtext() {
       return;
     }
 
-    let test = document.getElementById("test");
+    let handleliste1 = document.getElementById("handlelisteContainer");
 
     // Lag en div som holder boksen og tekst
     let itemDiv = document.createElement("div");
@@ -47,7 +47,7 @@ function addtext() {
     itemDiv.appendChild(document.createElement("br"));
 
 
-    test.appendChild(itemDiv);
+    handleliste1.appendChild(itemDiv);
 
     // Øk antall checkbokser
     totalCheckboxes++;

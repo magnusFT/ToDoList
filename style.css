@@ -12,8 +12,8 @@
     font-family: Libre Baskerville;
     font-size: 65px;
     position: absolute;
-    top: 20px;
-    left: 635px;
+    margin-top: 10px;
+    margin-left: 48px;
     text-decoration: none;
     color: rgb(239,243,248);
 }
@@ -34,14 +34,6 @@
     margin-left: 50px;
     width: 90px;
     height: 35px;
-  }
-
-  #test {
-    position:absolute;
-    margin-top: 100px;
-    margin-left: 50px;
-    font-family: Libre Baskerville;
-    font-size: 25px;
   }
 
   .checkbox {
@@ -70,6 +62,17 @@
 #bilde1 {
     position: absolute;
     margin-left: -24px;
-    margin-top: -36px;
+    margin-top: -52px;
     height: 950px;
+}
+
+#handlelisteContainer {
+  max-height: 500px;
+  overflow-y: auto;
+  position:absolute;
+  margin-top: 100px;
+  margin-left: 50px;
+  font-family: Libre Baskerville;
+  font-size: 25px;
+  width: 500px;
 }
